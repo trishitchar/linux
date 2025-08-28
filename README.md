@@ -37,6 +37,7 @@ Tools:
    ```bash
    sudo timeshift --list
    sudo timeshift --delete-all
+   sudo apt purge timeshift -y
    ```
 5. some cleanups
    ```bash
@@ -45,7 +46,6 @@ Tools:
    sudo apt-get autoremove -y
    journalctl --disk-usage
    sudo journalctl --vacuum-time=7d
-
    ```
    
 
