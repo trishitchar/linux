@@ -28,3 +28,30 @@ journalctl -u earlyoom -f
 Tools:
 1. CopyQ
 2. FlameShot
+3. ncdu for visual df -h
+   ```bash
+   sudo apt install ncdu
+   sudo ncdu /
+   ```
+4. Timeshift delete
+   ```bash
+   sudo timeshift --list
+   sudo timeshift --delete-all
+   ```
+5. some cleanups
+   ```bash
+   sudo apt-get clean
+   sudo apt-get autoclean
+   sudo apt-get autoremove -y
+   journalctl --disk-usage
+   sudo journalctl --vacuum-time=7d
+
+   ```
+   
+
+
+
+
+
+- will add this to my blog page in linux section later
+   
