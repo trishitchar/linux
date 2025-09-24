@@ -24,6 +24,10 @@ sudo systemctl restart earlyoom
 systemctl status earlyoom
 journalctl -u earlyoom -f
 ```
+- Finding
+```
+Windows & Linux handles memory differently, windows allocates memory dynamically where linux defines swap space manually, so to prevent freez in linux you've to increase swap space manually (>=6GB)
+```
 
 Tools:
 1. CopyQ
