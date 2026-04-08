@@ -99,7 +99,11 @@ git remote -v
 chmod +x ~/set-work-git.sh
 ~/set-work-git.sh
 ```
-
+- 
+```bash
+git remote -v
+git remote set-url origin git@github-personal:trishitchar/linux-mint-configs.git
+```
 
 # Out of Memory issue (OOM) - earlyoom
 ```bash
